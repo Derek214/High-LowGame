@@ -1,0 +1,14 @@
+C:\Users\depew\source\HighLowGame\HighLowGame\bin\Debug\net8.0\HighLowGame.exe
+C:\Users\depew\source\HighLowGame\HighLowGame\bin\Debug\net8.0\HighLowGame.deps.json
+C:\Users\depew\source\HighLowGame\HighLowGame\bin\Debug\net8.0\HighLowGame.runtimeconfig.json
+C:\Users\depew\source\HighLowGame\HighLowGame\bin\Debug\net8.0\HighLowGame.dll
+C:\Users\depew\source\HighLowGame\HighLowGame\bin\Debug\net8.0\HighLowGame.pdb
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.AssemblyInfoInputs.cache
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.AssemblyInfo.cs
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.csproj.CoreCompileInputs.cache
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.dll
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\refint\HighLowGame.dll
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.pdb
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\HighLowGame.genruntimeconfig.cache
+C:\Users\depew\source\HighLowGame\HighLowGame\obj\Debug\net8.0\ref\HighLowGame.dll

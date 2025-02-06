@@ -17,7 +17,7 @@ namespace HighLowGame
                 int doofusCounter = 0; //Counter to end program if the user enters 3 invalid inputs in one round of the game
 
                 Console.WriteLine("\nWelcome to the High/Low Guessing Game.\n" +
-                                  "The computer has generated a number between 1 and 10. (1, 2, 3, 4, 5, 6, 7, 8, 9, or 10\n" +
+                                  "The computer has generated a number between 1 and 10. (1, 2, 3, 4, 5, 6, 7, 8, 9, or 10)\n" +
                                   "Take a guess and it will tell you if the number is higher or lower than correct number until you get it right.\n" +
                                   "-----------------------------------------------------------------------------------------------------------------");
                 while (true) 
@@ -26,7 +26,7 @@ namespace HighLowGame
                     {
                         // Validate Guess
                         Console.Write($"Enter an integer [1-10]: ");
-                        if (int.TryParse(Console.ReadLine(), out int value) && value >= 1 && value <= 10)
+                        if (int.TryParse(Console.ReadLine(), out int value) && (value >= 1 && value <= 10))
                         {
                             userInput = value;
                             break;
@@ -46,11 +46,11 @@ namespace HighLowGame
                     {
                         Console.WriteLine("Lower");
                     }
-                    if (userInput < numberToGuess)
+                    else if (userInput < numberToGuess)
                     {
                         Console.WriteLine("Higher");
                     }
-                    if (userInput == numberToGuess)
+                    else if (userInput == numberToGuess)
                     {
                         Console.WriteLine("Correct");
                         break;
@@ -63,7 +63,7 @@ namespace HighLowGame
                 while (true)
                 {
                     Console.Write($"Enter an integer [1-2]: ");
-                    if (int.TryParse(Console.ReadLine(), out int value) && value == 1 || value == 2)
+                    if (int.TryParse(Console.ReadLine(), out int value) && (value == 1 || value == 2))
                     {
                         userInput = value;
                         break;
@@ -81,6 +81,10 @@ namespace HighLowGame
                 if (userInput == 1)
                 {
                     repeat = true;
+                }
+                else if (userInput == 2)
+                {
+                    repeat = false;
                 }
 
             } while (repeat);
@@ -110,12 +114,12 @@ namespace HighLowGame
                     Console.WriteLine("Lower");
                     max = guess;
                 }
-                if (guess < numberToGuess)
+                else if (guess < numberToGuess)
                 {
                     Console.WriteLine("Higher");
                     min = guess + 1;
                 }
-                if (guess == numberToGuess)
+                else if (guess == numberToGuess)
                 {
                     Console.WriteLine("Correct");
                     break;
@@ -145,7 +149,7 @@ namespace HighLowGame
             {
                 HighLowHumanGuess();
             }
-            if (userInput == 2)
+            else if (userInput == 2)
             {
                 HighLowComputerGuess();
             }
